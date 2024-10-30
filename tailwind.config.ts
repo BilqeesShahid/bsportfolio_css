@@ -9,20 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        mygray: "#DDDDDD",
-        myindigo:"#4F1787",
-        myblue:"#024CAA",
-        mygreen:"#365E32",
-        mypink:"#E11299",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      container:{
-        
-        padding:"15px"
-      },
+      }
     },
-  },
   plugins: [],
 };
 export default config;

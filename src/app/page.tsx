@@ -1,7 +1,5 @@
 "use client";
-
 import HeroSection from "@/app/components/HeroSection";
-import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
@@ -23,9 +21,9 @@ export default function Home() {
     AOS.refresh();
   }, [])
   return (
-     <main className="flex min-h-screen flex-col bg-mygray container mx-auto px-12 py-4">
-      <Navbar/>
-      <div className="container mt-24 mx-auto px-12 py-4">
+     <main className="main-container">
+      
+      <div className="content-container">
       <HeroSection/>
       <AboutSection/>
       <ProjectsSection/>
