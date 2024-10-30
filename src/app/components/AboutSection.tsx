@@ -6,7 +6,7 @@ import React from 'react'
 
 interface PropsType{
   active: boolean; // Assuming it's a boolean
-  selectTab: (isActive: boolean) => void; // Adjust the argument type as necessary
+  selectTab: any;
   children: React.ReactNode; // For any valid React node
 
 }
