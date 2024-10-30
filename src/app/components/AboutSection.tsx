@@ -5,9 +5,9 @@ import React from 'react'
 
 
 interface PropsType{
-  active:any,
-  selectTab:any,
-  children:any
+  active: boolean; // Assuming it's a boolean
+  selectTab: (tab: string) => void; // Adjust the argument type as necessary
+  children: React.ReactNode; // For any valid React node
 
 }
 const Tab_Data= [
