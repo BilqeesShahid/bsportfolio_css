@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 
 interface PropsType{
   name: string,
-  onClick:any,
+  onClick:boolean,
   isSelected:boolean
 }
 
