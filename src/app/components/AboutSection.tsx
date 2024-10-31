@@ -4,10 +4,10 @@ import Image from 'next/image'
 import React from 'react'
 
 
-interface PropsType{
+interface PropsType {
   active: boolean; // Assuming it's a boolean
   selectTab:any;
-  children: React.ReactNode; // For any valid React node
+  children: any; // For any valid React node
 
 }
 const Tab_Data= [
