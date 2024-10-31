@@ -6,8 +6,8 @@ import React from 'react'
 
 interface PropsType {
   active: boolean; // Assuming it's a boolean
-  selectTab: any;
-  children: any;
+  selectTab: React.ReactNode;
+  ;children: React.ReactNode;
 }
 const Tab_Data= [
   {
@@ -48,7 +48,7 @@ const Tab_Data= [
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
 
-  const handleTabChange = (id:React.SetStateAction<string>) => {
+  const handleTabChange = (id:string) => {
     setTab(id);
   };
 
