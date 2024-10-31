@@ -10,9 +10,9 @@ import { BsTelephone } from 'react-icons/bs';
 
 
 const EmailSection = () => {
-  const [result, setResult] = useState("Send Message");
+  const [result, setResult] = useState("Send Message")
 
-  const sendMessage = async (event{ preventDefault: () => void; target: HTMLFormElement | undefined; }) => {
+  const sendMessage = async (event{ preventDefault: () => void; target: HTMLFormElement | undefined }) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
