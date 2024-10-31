@@ -6,6 +6,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsTelephone } from 'react-icons/bs';
+
+
+
 const EmailSection = () => {
   const [result, setResult] = useState("Send Message");
 
