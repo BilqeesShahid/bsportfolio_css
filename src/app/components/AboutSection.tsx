@@ -6,7 +6,7 @@ import React from 'react'
 
 interface PropsType {
   active: boolean; // Assuming it's a boolean
-  selectTab: any; // Specify the function type for selectTab
+  selectTab: any;
   children: any;
 }
 const Tab_Data= [
