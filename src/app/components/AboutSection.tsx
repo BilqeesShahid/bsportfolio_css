@@ -6,7 +6,7 @@ import React from 'react'
 
 interface PropsType {
   active: boolean; // Assuming it's a boolean
-  selectTab:React.ReactNode;
+  selectTab:() => void;
   children: React.ReactNode;
 }
 const Tab_Data= [
