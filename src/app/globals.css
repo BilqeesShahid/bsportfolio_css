@@ -10,7 +10,39 @@
   --mygreen: #40A578; /* Replace with your exact blue color */
   --myofwhite: #FEFF9F; /* Replace with your exact gray color */
 }
- 
+/* Main container for Home */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  margin: 0 auto;
+  padding: auto;
+  width: 100%;
+}
+
+.content-container {
+  margin-top: 96px; /* Matches 'mt-24' */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 48px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content-container {
+    margin-top: 48px; /* Reduce the top margin on smaller screens */
+    padding: 16px 24px; /* Adjust padding for better fit */
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    margin-top: 32px; /* Further reduce the top margin for very small screens */
+    padding: 8px 16px; /* Reduce padding for smaller devices */
+  }
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -175,24 +207,7 @@
     display: flex; /* Show dropdown on smaller screens when opened */
   }
 }
-/* Main container for Home */
-.main-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: black;
-  margin: 0 auto;
-  padding: auto;
-  width: 100%; /* Similar to 'container' width */
-}
-
-/* Inner container for content sections */
-.content-container {
-  margin-top: 96px; /* Matches 'mt-24' */
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px 48px;
-}
+ 
 /* Hero Section */
 .hero-section {
   padding-top: 64px; /* Matches 'lg:py-16' */
