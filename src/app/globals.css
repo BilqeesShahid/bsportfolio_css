@@ -10,8 +10,7 @@
   --mygreen: #40A578; /* Replace with your exact blue color */
   --myofwhite: #FEFF9F; /* Replace with your exact gray color */
 }
-/* Main container for Home */
-.main-container {
+ .main-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -42,7 +41,6 @@
     padding: 8px 16px; /* Reduce padding for smaller devices */
   }
 }
-
 /* Navbar */
 .navbar {
   position: fixed;
