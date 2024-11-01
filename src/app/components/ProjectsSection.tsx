@@ -12,7 +12,7 @@ interface PropsType{
 const ProjectTag: React.FC<PropsType> = ({ name, onClick, isSelected }) => {
   const buttonClass = isSelected ? "project-tag selected" : "project-tag unselected";
   return (
-    <button className={buttonClass} onClick={() => onClick(name)}>
+    <button className={`${buttonClass}`} onClick={() => onClick(name)}>
       {name}
     </button>
   );
